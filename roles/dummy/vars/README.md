@@ -1,0 +1,2 @@
+# Role Variables Directory
+The files in the vars directory are lower in the precedent chain but are considered internal to the role and essential for proper execution of the role. These are variables that the end user of the role shouldn't have to override except in rare cases. For example, having a rhel.yml vs. ubuntu.yml in this directory for an inclusion based on OS facts for specific Apache configuration locations.
