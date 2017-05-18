@@ -1,2 +1,13 @@
 ---
 # handlers file for dummy
+# NOTE: handlers are executed in the order they are listed, not in the order they are triggered
+
+- name: Restart Apache
+  service:
+    name: apache
+    state: restarted
+
+- name: Restart firewalld
+  service:
+    name: firewalld
+    state: restarted
