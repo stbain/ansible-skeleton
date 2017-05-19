@@ -1,0 +1,16 @@
+# If this file exists, Ansible Tower will review this file for a list 
+# of roles to install from Ansible Galaxy (or specific URLs) into the
+# project.
+#
+# e.g.
+#
+# - user.role1
+#
+# - user.role2
+#   - name: User's role2 role from the thing
+#
+# - user2.role3
+#   - name: An internal role from a gitlab instance
+#   - url: https://gitlab.host.internal/user/project/repo/role3.git
+---
+
