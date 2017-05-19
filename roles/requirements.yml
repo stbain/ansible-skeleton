@@ -2,6 +2,7 @@
 # of roles to install from Ansible Galaxy (or specific URLs) into the
 # project.
 #
+# NOTE: Any roles you add here should be added to the roles/.gitignore file
 # e.g.
 #
 # - user.role1
