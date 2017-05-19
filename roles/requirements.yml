@@ -3,7 +3,12 @@
 # project.
 #
 # NOTE: Any roles you add here should be added to the roles/.gitignore file
-# e.g.
+#
+# For more information on the requirements.yml file format, visit:
+# http://docs.ansible.com/ansible/galaxy.html#installing-multiple-roles-from-a-file
+#
+#
+# Examples: 
 #
 # - user.role1
 #
@@ -12,6 +17,11 @@
 #
 # - user2.role3
 #   - name: An internal role from a gitlab instance
-#   - url: https://gitlab.host.internal/user/project/repo/role3.git
+#   - src: https://gitlab.host.internal/user/project/repo/role3.git
+#
+# - user2.role4
+#   - name: Role four
+#   - src: https://a.url/role4.git
+#   - version: "0.1"
 ---
 
